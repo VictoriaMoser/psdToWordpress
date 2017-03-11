@@ -33,3 +33,13 @@ header nav li {
   list-style-type: none;
   margin: 10px 20px;
 }
+
+header nav li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+#main-banner, #main-banner img{ /* style both banner and banner img in one rule */
+  width: 100%;
+}
