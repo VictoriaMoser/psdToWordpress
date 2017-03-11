@@ -74,5 +74,37 @@ header nav li a {
 
 #home-menu li:nth-child(odd) { /*to target only the li on the left */
   margin: 20px 8% 20px 0;
+}
 
+.dish {
+  float: left;
+  color: #555;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  padding-right: 15px;
+}
+
+.price {
+  float: right;
+  color: #555;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  padding-left: 15px;
+}
+
+
+.description {
+  clear: both;
+  display: block;
+  color: #999;
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  position: relative;
+  top: -8px;
 }
